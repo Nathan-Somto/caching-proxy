@@ -1,16 +1,18 @@
 # Caching Proxy Server CLI 🛡️⚡
 
 ![Tests Passing](https://img.shields.io/badge/tests-passing-brightgreen) ![GitHub Stars](https://img.shields.io/github/stars/nathan-somto/caching-proxy) ![GitHub Issues](https://img.shields.io/github/issues/nathan-somto/caching-proxy)
+
 A CLI tool that creates a caching proxy server, designed to cache responses from an origin server to improve performance and reduce load on the origin.
 
 ## ⚙️ Tech Stack
 
-1.🐢 Bun - A fast all-in-one JavaScript runtime.
+1. 🐢 Bun - A fast all-in-one JavaScript runtime.
 2. 🟦 Typescript - Typed JavaScript for improved development experience.
 3. 🗂️ Node Cache - A simple caching solution for Node.js applications.
 4. 🚀 Express - A fast, minimalist web framework for Node.js.
 
 # 🚀 Installation
+
 First, make sure you have Bun installed on your system. Then, follow the steps below:
 
 - Install the dependencies:
