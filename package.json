@@ -1,0 +1,25 @@
+{
+  "name": "caching-proxy",
+  "module": "index.ts",
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "bun build src/ --outdir dist --target=node",
+    "npm:global": "bun run build && npm i -g"
+  },
+  "bin": {
+    "caching-proxy": "./dist/src/index.js"
+},
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/express": "^5.0.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "express": "^4.21.0",
+    "node-cache": "^5.1.2"
+  }
+}
